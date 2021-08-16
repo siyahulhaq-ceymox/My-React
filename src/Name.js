@@ -1,6 +1,10 @@
 import { createElement, useEffect } from "../MyReact/myReact.js";
 
 function Name({ item }) {
+
+  useEffect(() => {
+    console.log('Added Use Effect');
+  }, []);
   
   return createElement("div", {
     className: "col",
