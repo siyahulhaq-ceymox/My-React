@@ -1,9 +1,7 @@
 import { createElement, useEffect } from "../MyReact/myReact.js";
 
 function Name({ item }) {
-  useEffect(() => {
-    console.log("test 2");
-  }, [item]);
+  
   return createElement("div", {
     className: "col",
     children: createElement("div", {
